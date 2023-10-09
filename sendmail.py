@@ -7,8 +7,7 @@ from email.mime.application import MIMEApplication
 fileto_attach = "C:/Users/JDeClaro/Documents/python_project/Netsuite/updated_excel_file.csv"
 # smtp_server ="smtp.gmail.com"
 # smtp_port =587
-# sender_email="jerico.declaro08@gmail.com"
-# sender_password="Zyd@@Fhae21"
+
 # recipient_email="jerico@oscargroup.com.au"
 
 # message = MIMEMultipart()
