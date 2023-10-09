@@ -8,7 +8,7 @@ fileto_attach = "C:/Users/JDeClaro/Documents/python_project/Netsuite/updated_exc
 # smtp_server ="smtp.gmail.com"
 # smtp_port =587
 
-# recipient_email="jerico@oscargroup.com.au"
+
 
 # message = MIMEMultipart()
 # message['From']=sender_email
@@ -42,7 +42,7 @@ def send_mail(emailto,subject,body,attachmentdir=None,ccmail=None):
         mail = outlook.CreateItem(0)
 
         # Set email properties
-        mail.To =emailto# 'emails.5822203_SB1.2218.768a3fc372@5822203-sb1.email.netsuite.com'
+        mail.To =emailto# 
         mail.CC = ccmail
         mail.Subject = subject
         mail.Body = body
